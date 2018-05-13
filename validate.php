@@ -46,8 +46,3 @@ function validate_brackets($string)
 	return true;
 
 }
-
-
-$str = '[{}({}[])]';
-
-var_dump(validate_brackets($str));	
